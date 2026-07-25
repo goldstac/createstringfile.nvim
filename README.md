@@ -3,9 +3,8 @@
 A lightweight Neovim plugin that adds a `!createstringfile` snippet to scaffold a C++ file-creation utility function.
 
 ```
-void create_file(const std::string& filepath, const std::string& content) {
+void create_file(const std::string& filepath) {
     std::ofstream file(filepath);
-    file << content;
 }
 ```
 
