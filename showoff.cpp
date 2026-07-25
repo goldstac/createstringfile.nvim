@@ -2,12 +2,11 @@
 #include <iostream>
 #include <string>
 
-void create_file(const std::string &filepath, const std::string &content) {
+void create_file(const std::string &filepath) {
   std::ofstream file(filepath);
-  file << content;
 }
 
 int main() {
-  create_file("showoff.txt", "Hello from createstringfile!\n");
+  create_file("showoff.txt");
   return 0;
 }

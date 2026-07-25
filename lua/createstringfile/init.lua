@@ -1,9 +1,8 @@
 local M = {}
 
 M.snippet_text = {
-  "void create_file(const std::string& filepath, const std::string& content) {",
+  "void create_file(const std::string& filepath) {",
   "    std::ofstream file(filepath);",
-  "    file << content;",
   "}",
 }
 
